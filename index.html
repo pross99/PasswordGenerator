@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="heading"> Generate a </h1>
+        <h2 class="heading" id="sub"> random password</h2>
+        <p class="h-support"> Never use an insecure password again.</p>
+        <button class="btn" onclick="displayPasswords()"> Generate password</button>
+        <div class="input-wrap"></div>
+        <input class="h-input" type="checkbox" id ="symbols" name ="specialCharacters" checked>
+            <label for="symbols"> Include special characters</label>
+        </input>
+        <hr></hr> 
+        <div class="flex">
+            <div class="pwd-container">
+                <input id="pwd1-el" value="xxxxxxxxxxxxxxx">
+                </input>
+                
+                <button id="pwd1-el" type="button" class="copy-link-button" onclick="copyPassword(id)">
+                    <span class="material-icons">content_copy</span>
+                </button>
+                </input>
+               
+            </div>
+            
+            <div class="pwd-container">
+                <input id="pwd2-el" value="xxxxxxxxxxxxxxx">
+                
+                 <button  id="pwd2-el" type="button" class="copy-link-button" onclick="copyPassword(id)">
+                    <span class="material-icons">content_copy</span>
+                </button>
+                </input>
+            </div>
+            
+        </div>
+     <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background-color: #ECFDF5;
+    padding: 100px 100px 100px 100px;
+    
+}
+button:focus {
+    outline: none;
+
+}
+input:focus {
+    outline: none;
+
+}
+
+.heading {
+    color: #111827;
+    font-family: Karla;
+    font-weight: 800px;
+    font-size: 40px;
+    line-height: 40px;
+    margin: auto;
+    width: 354;
+    letter-spacing: -5%;
+
+}
+
+#sub {
+    color: #10B981
+}
+.h-support{
+    
+    color: #6B7280;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.input-wrap {
+    display: flex;
+}
+
+label {
+     color: #6B7280;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.btn {
+    display: inline-block;
+    width: 190px;
+    height: 42px;
+    border-radius: 6px;
+    background-color: #10B981;
+    color: white;
+    border: none;    
+    text-shadow: 0px 1px 2px 0px;
+    margin-bottom: 30px;
+}
+
+.pwd-container {
+    width: 211px;
+    margin-top: 20px ;
+    margin-right: 45px;
+    height: 39px;
+    border-radius: 6px;
+    background-color: #273549;
+    color: #10B981;
+    text-align: center;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    display: flex;
+}
+
+.pwd-container input {
+    line-height:10px;
+    padding-left: 10px;
+    background-color:#111827;
+    color: #10B981;
+    border: none;
+    text-align: center;
+    
+}
+.pwd-container button {
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    background-color: #10B981;
+    outline: none;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.material-icons {
+margin-left: auto; 
+margin-top: 8px;
+
+}
+
+.material-icons:hover{
+color: #eeeeee;
+}
