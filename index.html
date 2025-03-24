@@ -16,10 +16,10 @@
         <hr></hr> 
         <div class="flex">
             <div class="pwd-container">
-                <input id="pwd1-el" value="xxxxxxxxxxxxxxx" onclick="this.select();">
+                <input id="pwd1-el" value="xxxxxxxxxxxxxxx" onclick="this.select(), copyPassword(id);">
                 </input>
                 
-                <button id="pwd1-el" type="button" class="copy-link-button" onclick="copyPassword(id)">
+                <button id="pwd1-el" type="button" class="copy-link-button">
                     <span class="material-icons">content_copy</span>
                 </button>
                 </input>
@@ -27,9 +27,9 @@
             </div>
             
             <div class="pwd-container">
-                <input id="pwd2-el" value="xxxxxxxxxxxxxxx" onclick="this.select();">
+                <input id="pwd2-el" value="xxxxxxxxxxxxxxx" onclick="this.select(), copyPassword(id);">
                 
-                 <button  id="pwd2-el" type="button" class="copy-link-button" onclick="copyPassword(id)">
+                 <button  id="pwd2-el" type="button" class="copy-link-button">
                     <span class="material-icons">content_copy</span>
                 </button>
                 </input>
