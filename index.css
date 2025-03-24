@@ -95,6 +95,10 @@ label {
     display: flex;
 }
 
+.input {
+    user-select: all;
+}
+
 .material-icons {
 margin-left: auto; 
 margin-top: 8px;

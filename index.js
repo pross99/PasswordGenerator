@@ -5,10 +5,17 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let pwd1El = document.getElementById("pwd1-el")
 let pwd2El = document.getElementById("pwd2-el")
 const checkbox= document.getElementById("symbols")
+let copyPasswordText = document.querySelectorAll("#pwd1-el, #pwd2-el")
 let includeSpecialCharacters = true;
 
 checkbox.addEventListener("change", () => {
     includeSpecialCharacters = checkbox.checked;
+})
+
+copyPasswordText.forEach((element) => {
+   element.addEventListener("click", function() {
+    alert("Password copied to clipboard!");;
+   })
 })
 
 function displayPasswords() {
